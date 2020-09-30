@@ -14,7 +14,7 @@
 
 ### Диаграмма прецедентов
 
-![a]()
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/USE%20case.png)
 
 ## Лабораторная 2
 ## Лабораторная 3
