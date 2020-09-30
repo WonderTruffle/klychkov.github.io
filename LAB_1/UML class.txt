@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Могильщик" as P {
+ Лопата
+ Копать (Земля, Заказ) → Могила
+}
+hide circle
+@enduml
