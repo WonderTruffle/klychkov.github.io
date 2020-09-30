@@ -10,7 +10,7 @@
 
 ### Диаграмма классов
 
-![a]()
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/UML%20class.png)
 
 ### Диаграмма прецедентов
 
