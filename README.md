@@ -17,6 +17,17 @@
 ![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/USE%20case.png)
 
 ## Лабораторная 2
+**Определение надсистемы (среды функционирования)**
+* IDEF диаграмма (блок А0)
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/01_A0.png)
+* IDEF диаграмма (блок А1, А2, А3, А4)
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/02_A0.png)
+**Определение автоматизируемых видов деятельности**
+* DFD диаграмма
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/03_A1.png)
+**Описание участников автоматизируемой деятельности**
+* USECASE диаграмма
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/UsecaseLR2.png)
 ## Лабораторная 3
 ## Лабораторная 4
 ## Лабораторная 5
