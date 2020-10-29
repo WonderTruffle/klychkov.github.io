@@ -29,6 +29,17 @@
 * USECASE диаграмма
 ![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/UsecaseLR2.png)
 ## Лабораторная 3
+
+### Диаграмма последовательности
+[Текст](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.txt) диаграммы последовательности<br>
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.png)<br>
+Пользователь посылает запрос БД на выдачу интересующих спектаклей, после чего оплачивает билет
+
+### ER-диаграмма 
+[Текст](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.txt) ER-диаграммы<br>
+![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-2.png)<br>
+Билет - это запись в базе данных, которая относится к информационным потокам, и состоит из: Названия спектакля, Время, Даты, Ряда/Места и Цены.
+
 ## Лабораторная 4
 ## Лабораторная 5
 ## Лабораторная 6
