@@ -1,0 +1,31 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class InfoStream as "Информационный поток"
+
+class Data as "Запись в БД"
+
+class Ticket as "Билет"
+
+class Name as "Название"
+class Date as "Дата"
+class Time as "Время"
+class Seat as "Ряд/Место"
+class Price as "Цена"
+
+InfoStream <|-- Data 
+Data <|-- Ticket
+Ticket *-- Name
+Ticket *-- Date
+Ticket *-- Time
+Ticket *-- Seat
+Ticket *-- Price
+
+hide members
+hide circle
+hide methods
+@enduml

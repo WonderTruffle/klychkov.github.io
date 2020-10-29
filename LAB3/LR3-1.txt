@@ -1,0 +1,23 @@
+@startuml
+actor ":Пользователь" as u
+participant "Сбор данных" as gd
+database "БД с расписанием спектаклей" as db
+participant "Оплата билета" as c
+participant "Выдача билета" as dropb
+
+activate gd
+  u -> gd : Ввод даты и названия
+  gd -> db : Поиск спектаклей в БД
+activate db
+  db -> gd : Выдача результатов поиска
+deactivate db
+  gd -> u : Получение нужного спектакля
+deactivate gd
+u -> c : Оплата билета
+activate c
+  c -> dropb : Формирование билета
+deactivate c
+activate dropb
+  dropb -> u : Получение билета
+deactivate dropb
+@enduml
