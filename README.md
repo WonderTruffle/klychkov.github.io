@@ -9,5 +9,3 @@
 ## [Отчет](https://github.com/WonderTruffle/Klychkov.github.io/wiki/%D0%9E%D1%82%D1%87%D0%B5%D1%82-4,5,6) о лабораторных работах 4-6.
 
 ## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam03-4) и [проверенный](https://github.com/stankin/design-part-1/wiki/)
-
-## [Деловая игра](https://github.com/)
