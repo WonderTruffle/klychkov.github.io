@@ -1,45 +1,13 @@
-# Отчет о лабораторных работах
-# студент группы ИДБ-17-06 Клычков И.А.
-## Лабораторная 1
+# [ИДБ-17-06](https://github.com/stankin/design-part-1/wiki/list-idb-17-06) Клычков И.А.
 
-Изначальное предложение: Могильщик копает могилу
+## Домашние задания по [семинару 1](https://github.com/stankin/design-part-1/wiki/sem1) и [семинару 2](https://github.com/stankin/design-part-1/wiki/sem2)
 
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/01_A0.png)
+## [Отчет](https://github.com/WonderTruffle/Klychkov.github.io/wiki/%D0%9E%D1%82%D1%87%D0%B5%D1%82-1,2,3) о лабораторных работах 1-3.
 
-Могильщик должен, в соответствии с заказом, с помощью лопаты выкопать могилу в земле
+## Домашние задания по [семинарам 3-4](https://github.com/WonderTruffle/Klychkov.github.io/wiki/%D0%A1%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80%D1%8B-3,4)
 
-### Диаграмма классов
+## [Отчет](https://github.com/WonderTruffle/Klychkov.github.io/wiki/%D0%9E%D1%82%D1%87%D0%B5%D1%82-4,5,6) о лабораторных работах 4-6.
 
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/UML%20class.png)
+## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam03-4) и [проверенный](https://github.com/stankin/design-part-1/wiki/)
 
-### Диаграмма прецедентов
-
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB_1/USE%20case.png)
-
-## Лабораторная 2
-**Определение надсистемы (среды функционирования)**
-* IDEF диаграмма (блок А0)
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/01_A0.png)
-* IDEF диаграмма (блок А1, А2, А3, А4)
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/02_A0.png)
-**Определение автоматизируемых видов деятельности**
-* DFD диаграмма
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/03_A1.png)
-**Описание участников автоматизируемой деятельности**
-* USECASE диаграмма
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB2/UsecaseLR2.png)
-## Лабораторная 3
-
-### Диаграмма последовательности
-[Текст](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.txt) диаграммы последовательности<br>
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.png)<br>
-Пользователь посылает запрос БД на выдачу интересующих спектаклей, после чего оплачивает билет
-
-### ER-диаграмма 
-[Текст](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-1.txt) ER-диаграммы<br>
-![a](https://github.com/WonderTruffle/Klychkov.github.io/blob/master/LAB3/LR3-2.png)<br>
-Билет - это запись в базе данных, которая относится к информационным потокам, и состоит из: Названия спектакля, Время, Даты, Ряда/Места и Цены.
-
-## Лабораторная 4
-## Лабораторная 5
-## Лабораторная 6
+## [Деловая игра](https://github.com/)
