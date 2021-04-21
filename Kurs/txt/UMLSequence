@@ -17,8 +17,8 @@ end
 loop
   system -> system : выполнение преобразований над ассетом
 end
-system -> db : Запрос на подключение к БД
-db -> system : Создание подключенния к БД ассетов
+system -> db : Запрос на разрыв подключения к БД
+db -> system : Отключение от БД ассетов
 deactivate db 
 system -> system : Сохранение сцены
 system -> student: Выполненное задание
