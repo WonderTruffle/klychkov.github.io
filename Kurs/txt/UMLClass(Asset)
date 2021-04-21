@@ -1,0 +1,64 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Entity as "Компонент окружения"
+
+class Asset as "Ассет"
+
+class Sprite as "Спрайт"
+class Audio as "Аудио"
+class VFX as "Визуальные эффекты"
+class Model as "Модели"
+class Texture as "Текстуры"
+class Prefab as "Префабы"
+class Scene as "Сцены"
+class UI as "Элементы интерфейса"
+class Anim as "Анимации"
+class Script as "Скрипты"
+
+class 2D as "2D-изображения объектов"
+class Music as "Музыка"
+class AFX as "Звуковые эфф."
+class Particle as "Частицы"
+class Filter as "Фильтры"
+class Mold as "Заготовки объектов"
+class Location as "Локации"
+class Font as "Шрифты"
+class Button as "Кнопки"
+class Widget as "Виджеты"
+class AI as "ИИ"
+class Gen as "Генерация объектов"
+
+
+hide members
+hide circle
+hide methods
+
+Entity <|-- Asset
+Asset <|-- Sprite
+Asset <|-- Audio
+Asset <|-- VFX
+Asset <|-- Model
+Asset <|-- Prefab
+Asset <|-- Texture
+Asset <|-- Scene
+Asset <|-- UI
+Asset <|-- Anim
+Asset <|-- Script
+
+Sprite <|-- 2D
+Audio <|-- Music
+Audio <|-- AFX
+VFX <|-- Particle
+VFX <|-- Filter
+Prefab <|-- Mold
+Scene <|-- Location
+UI <|-- Font
+UI <|-- Button
+UI <|-- Widget
+Script <|-- AI
+Script <|-- Gen
+@enduml
