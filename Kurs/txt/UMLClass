@@ -1,0 +1,43 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Entity as "Модель сетевого курса"
+
+class Tip as "Общая информация"
+class Assignments as "Учебный материал и виды работы"
+class Interaction as "Средства взаимодействия"
+
+class BaseInfo as "Общие сведения о курсе"
+class StudInfo as "Инфо. о студентах и успеваимости"
+
+class Labs as "Лабораторные раб."
+class Info as "Информационно-справочные материалы"
+class Tests as "Контрольные задания/тесты"
+class Ind as "Практические задания"
+
+class Forums as "Форум"
+class Chat as "Чат"
+class CCTV as "Видеоконференция"
+class Email as "Email"
+
+hide members
+hide circle
+hide methods
+
+Entity <|-- Tip
+Entity <|-- Assignments
+Entity <|-- Interaction
+Tip <|-- BaseInfo
+Tip <|-- StudInfo
+Assignments <|-- Labs
+Assignments <|-- Info
+Assignments <|-- Tests
+Assignments <|-- Ind
+Interaction <|-- Forums
+Interaction <|-- Chat
+Interaction <|-- CCTV
+Interaction <|-- Email
+@enduml
