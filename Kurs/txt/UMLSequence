@@ -17,7 +17,7 @@ end
 loop
   system -> system : выполнение преобразований над ассетом
 end
-system -> db : Запрос на разрыв подключения к БД
+system -> db : Запрос на отключение от БД
 db -> system : Отключение от БД ассетов
 deactivate db 
 system -> system : Сохранение сцены
