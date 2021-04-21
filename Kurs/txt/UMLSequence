@@ -1,0 +1,26 @@
+@startuml
+skinparam monochrome true
+
+actor Студент as student
+participant "Информационная система" as system
+database "База данных ассетов" as db
+
+student-> system : Выполнение задания
+activate system
+system -> db : Запрос на подключение к БД
+activate db
+db -> system : Создание подключенния к БД ассетов
+loop
+  system -> db : Выбор нужного ассета
+  db -> system : Добавление ассета на сцену
+end
+loop
+  system -> system : выполнение преобразований над ассетом
+end
+system -> db : Запрос на подключение к БД
+db -> system : Создание подключенния к БД ассетов
+deactivate db 
+system -> system : Сохранение сцены
+system -> student: Выполненное задание
+deactivate system
+@enduml
