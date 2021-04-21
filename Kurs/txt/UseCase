@@ -1,32 +1,32 @@
 @startuml
 left to right direction
 
-actor Преподаватель
-actor Студент
-actor Сис.Админ
+actor "Преподаватель"
+actor "Студент"
+actor "Сис.Админ"
 
-usecase case1 as Выполнение задания
-usecase case2 as Контроль выполнения задания
-usecase case3 as Присутствие на занятии
-usecase case4 as Ознакомление с методическими указаниями
-usecase case5 as Выполнение задания
-usecase case6 as Исправление ошибок и недочетов
-usecase case7 as Оказание помощи с выполнением
-usecase case8 as Проверка выполненного задания
-usecase case9 as Проведение контроля знаний
-usecase case10 as Настройка оборудования
+usecase case1 as "Выполнение задания"
+usecase case2 as "Контроль выполнения задания"
+usecase case3 as "Присутствие на занятии"
+usecase case4 as "Ознакомление с методическими указаниями"
+usecase case5 as "Выполнение задания"
+usecase case6 as "Исправление ошибок и недочетов"
+usecase case7 as "Оказание помощи с выполнением"
+usecase case8 as "Проверка выполненного задания"
+usecase case9 as "Проведение контроля знаний"
+usecase case10 as "Настройка оборудования"
 
-Студент-- case1
-case1 .. case3
-case1 .. case4
-case1 .. case5
-case1 .. case6
+Студент --> case1
+case1 ..> case3
+case1 ..> case4
+case1 ..> case5
+case1 ..> case6
 
-Преподаватель-- case2
-case2 .. case3
-case2 .. case7
-case2 .. case8
-case2 .. case9
+Преподаватель --> case2
+case2 ..> case3
+case2 ..> case7
+case2 ..> case8
+case2 ..> case9
 
-Сис.Админ-- case10
+Сис.Админ --> case10
 @enduml
